@@ -21,7 +21,7 @@ app.use("/categories", categoriesRoute);
 app.use("/metas", metasRoute);
 app.use("/transacoes", transacoesRoute);
 
-app.get("/health", (_, res) => {
+app.get("/", (_, res) => {
   return res.send("Sistema está operacional!");
 });
 
