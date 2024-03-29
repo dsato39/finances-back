@@ -28,3 +28,5 @@ app.get("/", (_, res) => {
 app.listen(8080, () => {
   console.log("Servidor rodando na porta 8080.");
 });
+
+module.exports = app;
