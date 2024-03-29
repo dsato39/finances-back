@@ -25,8 +25,8 @@ app.get("/", (_, res) => {
   return res.send("Sistema está operacional!");
 });
 
-app.listen(8080, () => {
-  console.log("Servidor rodando na porta 8080.");
+app.listen(3306, () => {
+  console.log("Servidor está operacional");
 });
 
 module.exports = app;
